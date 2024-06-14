@@ -35,7 +35,7 @@ import * as ur from './languages/ur.json'
 import * as vi from './languages/vi.json'
 import * as zhcn from './languages/zh-cn.json'
 import * as zhtw from './languages/zh-tw.json'
-
+import * as hr from './languages/hr.json'
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const languages: any = {
   bg,
@@ -74,7 +74,8 @@ const languages: any = {
   ur,
   vi,
   zhcn,
-  zhtw
+  zhtw,
+  hr
 }
 
 export function localize (key: string, locale: string): string {
